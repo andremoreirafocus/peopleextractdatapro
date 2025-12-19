@@ -74,7 +74,7 @@ def main():
     while True:
         start_time = time.time()
         now = datetime.now()
-        object_name = now.strftime("person_%Y-%m-%d-%H-%M-%S.json")
+        object_name = now.strftime("year=%Y/month=%m/day=%d/hour=%H/person_%M%S.json")
         extract_and_load(api_server, bucket_name, object_name, minio_endpoint, access_key, secret_key, secure=False)
         elapsed = time.time() - start_time
         sleep_time = max(0, interval - elapsed)
