@@ -62,3 +62,8 @@ Um exemplo de arquivo gerado pode ser encontrado em [sample.json](sample.json), 
 ## Licença
 
 Este projeto é de uso livre para fins educacionais e demonstração.
+
+## Para rodar no Airflow
+
+- Adicione a linha abaixo no arquivo requirements.txt do Airflow
+  minio==7.2.20
