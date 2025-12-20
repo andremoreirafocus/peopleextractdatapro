@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Victoria",
+                "last": "Lévesque"
+            },
+            "location": {
+                "street": {
+                    "number": 8489,
+                    "name": "Dundas Rd"
+                },
+                "city": "Carleton",
+                "state": "Yukon",
+                "country": "Canada",
+                "postcode": "G2X 0N7",
+                "coordinates": {
+                    "latitude": "-66.0550",
+                    "longitude": "128.6779"
+                },
+                "timezone": {
+                    "offset": "+5:30",
+                    "description": "Bombay, Calcutta, Madras, New Delhi"
+                }
+            },
+            "email": "victoria.levesque@example.com",
+            "login": {
+                "uuid": "f99bd72f-2d54-481e-ab6f-d9c6b9c47683",
+                "username": "yellowswan648",
+                "password": "helmet",
+                "salt": "2trHe5NS",
+                "md5": "af8d6102f0ce33ce08a2945189d31136",
+                "sha1": "375ed3e5be5b5acfc1c36069ee7b5ecd6e751330",
+                "sha256": "0420302547564a0b1c1363d708ce08736c63e98393bb8041bda4e4168632f862"
+            },
+            "dob": {
+                "date": "1987-12-20T22:33:52.723Z",
+                "age": 37
+            },
+            "registered": {
+                "date": "2010-10-25T14:25:24.095Z",
+                "age": 15
+            },
+            "phone": "P72 M45-2928",
+            "cell": "E03 L06-5119",
+            "id": {
+                "name": "SIN",
+                "value": "314467564"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/66.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/66.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/66.jpg"
+            },
+            "nat": "CA"
+        }
+    ],
+    "info": {
+        "seed": "9bbb01d6c7ab7fe1",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}
