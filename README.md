@@ -50,6 +50,10 @@ Exemplo:
 year=2025/month=12/day=20/hour=15/person_3045.json
 ```
 
+## Exemplo de Saída
+
+Um exemplo de arquivo gerado pode ser encontrado em [sample.json](sample.json), que demonstra o formato dos dados extraídos da API e salvos no MinIO.
+
 ## Personalização
 
 - Para alterar o intervalo de extração, modifique a variável `interval` em `main.py`.
