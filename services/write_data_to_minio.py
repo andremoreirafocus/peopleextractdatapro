@@ -4,7 +4,7 @@ from minio.error import S3Error
 from io import BytesIO
 import logging
 
-def write_data_to_minio(data, bucket_name, object_name, minio_endpoint, access_key, secret_key, secure=True):
+def write_data_to_minio(connection_data, bucket_name, object_name, data):
     """
     Uploads a variable (Python object) as a JSON file to a MinIO bucket.
     :param data: Python object to upload (will be serialized to JSON)
@@ -15,11 +15,12 @@ def write_data_to_minio(data, bucket_name, object_name, minio_endpoint, access_k
     :param secret_key: MinIO secret key
     :param secure: Use HTTPS if True, HTTP if False
     """
+
     client = Minio(
-        minio_endpoint,
-        access_key=access_key,
-        secret_key=secret_key,
-        secure=secure
+        connection_data["minio_endpoint"],
+        access_key=connection_data["access_key"],
+        secret_key=connection_data["secret_key"],
+        secure=connection_data["secure"]
     )
     try:
         # Create bucket if it does not exist
